@@ -2,6 +2,7 @@ h1 {
     color: #5979f7;
     font-size: 40px;
     font-weight: bold;
+    margin: 0px 20px 2px;
 }
 
 body {
@@ -12,9 +13,35 @@ body {
 
 .authorship {
     font-size: 14px;
+    margin: 0px 20px 20px;
 }
 
 a {
     color: grey;
     font-weight: bold;
+}
+
+.escher-big {
+    display: inline-flex;
+}
+.escher-medium-big {
+    display: inline-flex;
+    max-height: 700px;
+}
+.escher-medium {
+    display: inline-flex;
+    max-height: 500px;
+}
+.escher-small {
+    display: inline-flex;
+    max-height: 300px;
+}
+.escher-minute {
+    display: inline-flex;
+    max-height: 150px;
+}
+.escher-minute-2 {
+    display: inline;
+    max-height: 180px;
+    margin: -30px;
 }
